@@ -18,6 +18,8 @@ MineGuard is a comprehensive kit designed for drone-based remote landmine detect
 - **PyTorch**: A deep learning framework powering the development and training of neural networks.
 - **Deep Learning**: Core methodology for building and optimizing detection models.
 - **Data Engineering**: Techniques applied to preprocess and augment sensor data for improved model performance.
+  
+![Thermal Image](media/media/real-landmine-detection.gif)
 
-#More detales
+#More details
 Check out our [PDF presentation](media/MineGuard_Presentation.pdf) for additional information.
