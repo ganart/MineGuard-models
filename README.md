@@ -20,4 +20,4 @@ MineGuard is a comprehensive kit designed for drone-based remote landmine detect
 - **Data Engineering**: Techniques applied to preprocess and augment sensor data for improved model performance.
 
 #More detales
-Check out our ['PDF presentation'](media/MineGuard_Presentation.pdf) for additional information.
+Check out our [PDF presentation](media/MineGuard_Presentation.pdf) for additional information.
