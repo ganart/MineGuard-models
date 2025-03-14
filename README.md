@@ -5,6 +5,6 @@ Welcome to the MineGuard Models repository! This project contains models and dat
 ## Real Landmine Detection Example
 Below is an example from the `media/real-landmine-detection` folder, showcasing real-world landmine detection:
 
-![Real Landmine Detection](media/real-landmine-detection/sample-image.jpg)
+![Real Landmine Detection](media/thermal_description.png)
 
 *For more details, visit the [`media/real-landmine-detection` README](media/real-landmine-detection/README.md).*
