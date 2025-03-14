@@ -1,10 +1,20 @@
-# MineGuard Models
+# MineGuard
 
-Welcome to the MineGuard Models repository! This project contains models and datasets for landmine detection, blending real-world and simulated thermal data.
+The repository contains a neural network model specifically developed for the MineGuard project.
 
-## Real Landmine Detection Example
-Below is an example from the `media/real-landmine-detection` folder, showcasing real-world landmine detection:
+## Overview
+MineGuard is a comprehensive kit designed for drone-based remote landmine detection. It integrates three primary sensors: an RGB camera, a thermal imager, and a metal detector. These sensors collect data from the drone's surroundings, which is then processed by independent neural networks for the detection and classification of landmines. The project leverages advanced technologies such as PyTorch, YOLOv8, deep learning, and data engineering to ensure accurate and efficient landmine detection.
 
-![Real Landmine Detection](media/thermal_description.png)
+## Features
+- **Multi-sensor Integration**: Combines data from an RGB camera, thermal imager, and metal detector for thorough landmine detection.
+- **Neural Network Processing**: Employs independent neural networks to process sensor data, enabling precise landmine classification.
+- **Real-time Monitoring**: Provides live monitoring of detection activities for rapid response and decision-making.
+- **Interactive Map**: Plots detected landmines on an interactive map for visualization and analysis.
+- **Scalability**: Designed to be adaptable, MineGuard can be deployed across various platforms and terrains.
 
-*For more details, visit the [`media/real-landmine-detection` README](media/real-landmine-detection/README.md).*
+## Technologies Used for Training RGB and Thermal Models
+- **YOLOv8**: An advanced object detection model used to identify landmines in images and video streams from RGB and thermal sensors.
+- **OpenCV**: A computer vision library utilized for image processing and object detection tasks.
+- **PyTorch**: A deep learning framework powering the development and training of neural networks.
+- **Deep Learning**: Core methodology for building and optimizing detection models.
+- **Data Engineering**: Techniques applied to preprocess and augment sensor data for improved model performance.
