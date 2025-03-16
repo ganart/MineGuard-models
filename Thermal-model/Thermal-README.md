@@ -13,5 +13,5 @@ A mathematical model was developed in **ANSYS APDL** to simulate the thermal beh
 - **`grass-augmentation.py`**: Python script for generating random grass scenes in Blender, used to augment thermal images with realistic backgrounds.
 
 <div align="center">
-  <img src="media/thermal_description.png" alt="Thermal-Algorithm">
+  <img src="../media/thermal_description.png" alt="Thermal-Algorithm">
 </div>
