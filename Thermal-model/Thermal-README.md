@@ -1,5 +1,5 @@
 ## Overview
-The thermal model is a critical part of MineGuard, designed to process data from the drone's thermal imager. It utilizes the YOLOv8 framework to detect and classify landmines based on their thermal signatures. This folder includes tools for generating synthetic thermal datasets, augmenting them with grass, and training the model.
+The thermal model is a critical part of MineGuard, designed to process data from the drone's thermal imager. It utilizes the YOLOv8 framework to detect landmines based on their thermal signatures. This folder includes tools for generating synthetic thermal datasets, augmenting them with grass, and training the model.
 
 ## Workflow
 A mathematical model was developed in **ANSYS APDL** to simulate the thermal behavior of landmines. A series of calculations generated images reflecting real-world thermal patterns. Due to their uniform nature, a custom augmentation pipeline was implemented:
